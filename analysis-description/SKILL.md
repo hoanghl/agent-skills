@@ -72,6 +72,24 @@ delivery (§7) follow the mode.
 - Place it right after the bullets of the question it serves; at most one per
   question.
 - Diagrams: ASCII in a `text` block in Terminal mode; Mermaid in MD file mode.
+- Mermaid PR dependency diagrams (which PR ships before which):
+  - Fill each PR box by its ticket's status at write time: Backlog/Todo → no
+    fill, In Progress/In Review → yellow, Done → light green.
+  - Draw each milestone as a `subgraph` with a light blue background.
+  - Draw non-PR steps (flag changes, ramps) as hexagons `{{…}}` in the default
+    style.
+  - Add a `Colors:` legend line under the diagram with the status date; the
+    colors do not update themselves.
+
+  ```text
+  classDef todo fill:none,stroke:#555
+  classDef inprogress fill:#fff59d,stroke:#f9a825,color:#000
+  classDef done fill:#c8e6c9,stroke:#43a047,color:#000
+  class <todo node ids> todo
+  class <in-progress node ids> inprogress
+  class <done node ids> done
+  style <milestone subgraph id> fill:#e3f2fd,stroke:#90caf9,color:#000
+  ```
 - Tables: a plain Markdown table, never inside a code fence. Cells that cite use
   the mode's citation form (§6).
 - Terminal tables: at most 4 columns and short cells, so rows fit the terminal
