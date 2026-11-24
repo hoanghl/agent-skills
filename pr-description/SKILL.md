@@ -1,5 +1,5 @@
 ---
-name: PR Description
+name: pr-description
 description: Compose a short, bullet-point pull request description (Why / Idea / Changes / Test suite) from the actual code and diff. Use when asked to write, rewrite, or update a PR description.
 ---
 

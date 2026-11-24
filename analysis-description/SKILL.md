@@ -1,5 +1,5 @@
 ---
-name: Analysis Description
+name: analysis-description
 description: Format finished research as one numbered section per question — `# N. <Question>` followed by short, cited bullets, plus a diagram or table where it explains faster than text. Use after the research is done, when the user lists the questions to describe.
 ---
 
