@@ -1,5 +1,5 @@
 ---
-name: PR Branch
+name: pr-branch
 description: Create a work branch from the latest main, named `<user>/<TICKET>-<slug>` from a Linear ticket, check it out in its own worktree under the Paradev worktrees folder, and register a Paradev workspace for that worktree. Use when starting a ticket, creating branches, worktrees or Paradev workspaces, or when asked to branch off for a task.
 ---
 

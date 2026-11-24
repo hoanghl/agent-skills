@@ -1,5 +1,5 @@
 ---
-name: PR Review
+name: pr-review
 description: Review a pull request with two independent sub-agent reviewers run by a master agent — list the review aspects, collect both reports, run up to 3 deep-dive rounds, then write a sectioned review (workstream, where the PR fits, design, related work and docs, issues per reviewer, test suite, code length, edge cases) with diagrams and tables where they explain faster. Also composes the response for the PR author with a decision (request changes, comment, approve). Use when asked to review, assess, or explain a PR in depth, or to compose a review response.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: PR Implement
+name: pr-implement
 description: Implement a feature step from existing analysis, milestone, or prior-PR documents — restate the plan in a fixed template, save it as an MD file, then work a TODO checklist. Use when asked to implement a step that already has analysis or design docs.
 ---
 
